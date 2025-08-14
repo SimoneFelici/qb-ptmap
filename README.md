@@ -44,7 +44,7 @@ Generate the environment:
 cd qb-ptmap && uv sync
 ```
 ## Usage
-Move your wireguard configuration in `/etc/wireguard/`
+Move your wireguard configuration in `/etc/wireguard/` \
 Start wireguard with your proton config:
 ```bash
 sudo wg-quick up proton
