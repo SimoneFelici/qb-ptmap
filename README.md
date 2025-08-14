@@ -4,6 +4,8 @@ Automatic port mapper for qBittorrent with the Proton WireGuard configuration
 Documentation work in progress
 
 ## Prerequisites
+### qbittorrent
+Install qbittorrent and make sure the webui is active and with working credentials.
 ### Wireguard configuration
 Generate a [Wireguard configuration](https://account.protonvpn.com/downloads#wireguard-configuration) for Linux and be sure to enable "NAT-PMP (Port Forwarding)".
 
