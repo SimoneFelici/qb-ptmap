@@ -28,6 +28,7 @@ def set_qbittorrent_port(port_number):
 
 def run_and_monitor():
     port_pattern = re.compile(r"Mapped public port (\d+) protocol (UDP|TCP)")
+    #https://protonvpn.com/support/port-forwarding-manual-setup/
     process = subprocess.Popen(config.NATPMP_COMMAND, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
     for line in iter(process.stdout.readline, ''):
         line = line.strip()
