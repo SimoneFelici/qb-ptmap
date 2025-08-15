@@ -2,7 +2,7 @@ import subprocess
 import re
 import sys
 from qbittorrentapi import Client, exceptions
-import config
+from qb_ptmap import config
 
 current_qbit_port = 0
 

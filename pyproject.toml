@@ -12,7 +12,7 @@ keywords = ["protonvpn", "qbittorrent", "vpn", "wireguard"]
 [project.urls]
 Repository = "https://github.com/SimoneFelici/qb-ptmap"
 Documentation = "https://github.com/SimoneFelici/qb-ptmap?tab=readme-ov-file#qb-ptmap"
-Issues = "https://github.com/me/spam/issues"
+Issues = "https://github.com/SimoneFelici/qb-ptmap/issues"
 
 [project.scripts]
 qb-ptmap = "qb_ptmap.qb_ptmap:main"
