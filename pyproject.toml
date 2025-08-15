@@ -1,6 +1,6 @@
 [project]
 name = "qb-ptmap"
-version = "1.0.0"
+version = "1.0.1"
 description = "Automatic port mapper for qBittorrent with ProtonVPN"
 readme = "README.md"
 requires-python = ">=3.12"
