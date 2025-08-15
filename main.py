@@ -1,7 +1,7 @@
 import subprocess
 import re
 import sys
-from qbittorrentapi import Client
+from qbittorrentapi import Client, exceptions
 import config
 
 current_qbit_port = 0
@@ -21,13 +21,11 @@ def set_qbittorrent_port(port_number):
 
     except exceptions.LoginFailed as e:
         print(f"\n[ERROR] Login failed. Please check your credentials in config.toml.")
-        print(f"Details: {e}")
         sys.exit(1)
     except Exception as e:
         print(f"\n[ERROR] An unexpected error occurred while connecting to qBittorrent.")
-        print(f"Details: {e}")
         sys.exit(1)
-    
+
 def run_and_monitor():
     port_pattern = re.compile(r"Mapped public port (\d+) protocol (UDP|TCP)")
     process = subprocess.Popen(config.NATPMP_COMMAND, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
