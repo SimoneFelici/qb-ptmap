@@ -20,7 +20,7 @@ Install `uv` from the [official source](https://docs.astral.sh/uv/getting-starte
 ## Installation
 ### Install tool (recommended)
 ```bash
-uv tool install  qb-ptmap
+uv tool install qb-ptmap
 ```
 ### From source
 Clone the repository:
