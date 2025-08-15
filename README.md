@@ -1,5 +1,5 @@
 # qb-ptmap
-Automatic port mapper for qBittorrent with the Proton WireGuard configuration
+Automatic port mapper for qBittorrent with ProtonVPN
 
 Documentation work in progress
 
