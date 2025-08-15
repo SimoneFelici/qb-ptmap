@@ -43,7 +43,7 @@ def run_and_monitor():
     if return_code:
         raise subprocess.CalledProcessError(return_code, config.NATPMP_COMMAND)
 
-if __name__ == '__main__':
+def main():
     try:
         run_and_monitor()
     except KeyboardInterrupt:
@@ -51,3 +51,6 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"\nScript Error: {e}")
         sys.exit(1)
+
+if __name__ == '__main__':
+    main()
