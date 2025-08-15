@@ -37,7 +37,7 @@ Install `uv` from the [official source](https://docs.astral.sh/uv/getting-starte
 ## Installation
 Clone the repository:
 ```bash
-git clone git@github.com:SimoneFelici/qb-ptmap.git
+git clone https://github.com/SimoneFelici/qb-ptmap.git
 ```
 Generate the environment:
 ```bash
