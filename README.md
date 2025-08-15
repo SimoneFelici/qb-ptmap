@@ -65,3 +65,9 @@ Enter the environment and run the script:
 ```bash
 source .venv/bin/activate
 ```
+## Configuration
+At the first run the tool will generate the configuration file at `~/.local/share/qb-ptmap/config.toml`
+You can then edit:
+- Webui url;
+- User;
+- Password.
