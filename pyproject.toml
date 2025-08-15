@@ -1,6 +1,6 @@
 [project]
 name = "qb-ptmap"
-version = "0.1.0"
+version = "0.1.1"
 description = "Automatic port mapper for qBittorrent with the Proton WireGuard configuration"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -10,3 +10,6 @@ dependencies = [
 
 [project.urls]
 Repository = "https://github.com/SimoneFelici/qb-ptmap"
+
+[project.scripts]
+qb-ptmap = "main:run_and_monitor"
